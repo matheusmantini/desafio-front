@@ -1,54 +1,33 @@
-# Teste prático Front-End
+# Projeto:  Aplicativo de criação de perfil de usuário
 
-Este teste é desenvolvido pela [Qesh](https://www.linkedin.com/company/qesh-payments/) e tem como objetivo avaliar tecnicamente o candidato para a vaga de Front-End.
+# Funcionalidades
+- Realizar login e logout da aplicação;
+- A página de informações do usuário está protegida por autenticação via token, ou seja, não é permitido o acesso para o usuário que não fizer login;
+- Na página de informações do usuário é possível editar as informações já cadastradas, alterar a cor do header do card e a imagem do usuário;
+  - OBS: como os dados são mokados e estão salvos no contexto global da aplicação, quando a tela é reiniciada eles voltarão para o estado inicial da aplicação.
 
+# Tecnologias Utilizadas
+- HTML5;
+- CSS3;
+- React;
+- Styled-Components;
+- Rotas com React Router;
+- Context API;
+- Custom Hooks;
+- GIT;
 
-## **Instruções**
+# Desenvolvedor 
+[Matheus Mantini](https://www.linkedin.com/in/matheusmantini/)
 
-Você deverá criar um `fork` deste repositório. Nesse fork, você encontrará a pasta `project`. 
-Todo o código fonte deve ser colocado dentro da pasta `project`.
+# Modo de Uso
+- Acesse o link da aplicação e aguarde até aparecer a tela que solicita o email ao usuário;
+- Nesta tela, insira o seguinte email: *michaelb@jordan.com* e pressione enter ou aperte o botão 'Prosseguir' para ser redirecionado à tela de login;
+- Agora, digite a senha de usuário: *123456* e pressione enter ou aperte o botão 'Logar' para ser redirecionado à tela de informações do usuário;
+- Ao clicar na chave (switch) do modo editor, se torna possível editar os campos do formulário, escolher a cor de tema do header do card e a imagem do usuário. Ainda nesta mesma página, é possível realizar logout para retornar à página de login;
 
-O repositório deverá ser público e não poderá ter nenhuma menção à Qesh.
+- Informações de acesso: 
+  - email: michaelb@jordan.com 
+  - senha: 123456
 
-Você terá **48h** para realizar o teste, consideraremos até onde você conseguir chegar com o código.
-
-> Lembrando que não é necessária a conclusão do teste para envio do código.
-
-Ao finalizar, responda o email referente ao teste com o link do seu repositório.
-
-## **Sobre o teste**
-
-Você desenvolverá um aplicativo de criação perfil de usuário, que exibirá suas informações básicas e que poderão ser editáveis posteriormente.
-
-A informações deverão ser mokadas, ou seja, não deverão ser obtidas de um banco de dados.
-
-## **Layout do projeto**
-
-Não há um modelo exato de como deve ficar o aplicativo final, mas criamos um [layout](https://www.figma.com/file/3avD92FrmZ8mmf8oqjdY7D/teste-frontend?node-id=4449%3A28922) de exemplo para nortear o desenvolvimento.
-
-
-## **O que nós esperamos do teste**
-
-- Demonstrar conhecimento de React.js
-- Demonstrar conhecimento de TypeScript
-- Boas práticas de programação
-- Um README com informações sobre o projeto e guia de uso
-- Histórico de commits do git
-- Organização, semântica, estrutura, legibilidade, manutenibilidade do seu código
-- Alcance dos objetivos propostos
-- Responsividade
-
-## **Seria ótimo ver no seu teste**
-
-- Testes unitários
-- Documentação do código
-
-## **Seria impressionante ver no seu teste**
-
-- Animações e efeitos
-- Ver o código em produção (Github Pages, Heroku, Netlify)
-
-## **Não seria bom**
-
-- Descobrir que não foi você quem fez seu teste
-- Ver commits grandes, sem muita explicação nas mensagens em seu repositório
+# Veja o projeto em funcionamento no link abaixo
+https://matheus-mantini-user-panel.surge.sh/
