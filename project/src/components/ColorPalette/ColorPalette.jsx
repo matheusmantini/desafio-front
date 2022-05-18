@@ -42,7 +42,10 @@ const ColorItem = styled.li`
     }else if(props.color === 'color13'){
       return 'background-color: #42C1C7'
     }         
-  }}
+  }};  
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  margin: 10px 15px;
+  }
 `;
 
 const onClickChangeColor = (color) => {

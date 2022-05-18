@@ -9,13 +9,26 @@ export const Container = styled.div`
   background-color: #E5E5E5;
 `;
 
-export const Card = styled.div`
+export const StyledCard = styled.div`
   width: 787px;
   height: 782px;
   border-radius: 24px;
   background-color: white;
   position: absolute;
   box-shadow: 0 0 10px ${primaryColor};
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0 !important;
+  }
+  @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+  width: 680px;
+  height: 700px;
+  }
+  @media screen and (min-device-width : 1200px) and (max-device-width : 1500px) {
+  width: 680px;
+  height: 700px;
+  }
 `;
 
 
@@ -38,6 +51,9 @@ export const ContainerForm = styled.form`
   align-items: center;
   height: 200px;
   margin-top: 120px;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    margin-top: 15px;
+  }
 `;
 
 export const ContainerInputs = styled.div`
@@ -46,6 +62,10 @@ export const ContainerInputs = styled.div`
   justify-content: center;
   align-items: flex-start;
   width: 400px;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  width: 300px;
+  align-items: center;
+  }
 `;
 
 export const InputForm = styled.input`
@@ -59,11 +79,50 @@ export const InputForm = styled.input`
   outline-color: ${primaryColor};
 `;
 
+export const SelectForm = styled.select`
+  height: 34px;
+  width: 104%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  outline-color: ${primaryColor};
+`;
+
 export const InputLabel = styled.label`
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 5px;
   line-height: 24px;
+`;
+
+export const EditImage = styled.button`
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid white;
+  box-shadow: 0 0 2px black;
+  position: absolute;
+  top: 17%;
+  left: 55%;
+  transform: translateX(-55%);
+  cursor: pointer;
+  :hover{
+    filter: brightness(0.90);    
+  }
+  :active{
+  box-shadow: -1px -2px 5px black;
+  }
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  top: 21%;
+  left: 59%
+  }
+  @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+  top: 20%;
+  }
 `;
 
 /* Switch */
@@ -146,6 +205,12 @@ export const ContainerInnerSwitch = styled.div`
   label:nth-child(2){
     margin-top: 5px;
     font-size: 12px;
+  }
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  width: 300px;
+  position: absolute;
+  top: 6%;
+  color: white;
   }
 `;
 
