@@ -20,11 +20,10 @@
 [Matheus Mantini](https://www.linkedin.com/in/matheusmantini/)
 
 # Modo de Uso
-- Acesse o link da aplicação e aguarde até aparecer a tela que pede o email do usuário;
-- Nesta tela, inserir o seguinte email: *michaelb@jordan.com* e pressionar enter ou apertar o botão 'Prosseguir' para ser redirecionado à tela de login;
-- Agora basta digitar a senha de usuário: *123456* e pressionar enter ou apertar o botão 'Logar' para ser redirecionado à tela de informações do usuário;
-- Ao modificar a chave (switch) do modo editor, é possível editar os campos do formulário, escolher a cor de tema do header do card e a imagem do usuário;
-- Ainda nesta mesma página, é possível realizar logout para retornar à página de login;
+- Acesse o link da aplicação e aguarde até aparecer a tela que solicita o email ao usuário;
+- Nesta tela, insira o seguinte email: *michaelb@jordan.com* e pressione enter ou aperte o botão 'Prosseguir' para ser redirecionado à tela de login;
+- Agora, digite a senha de usuário: *123456* e pressione enter ou aperte o botão 'Logar' para ser redirecionado à tela de informações do usuário;
+- Ao clicar na chave (switch) do modo editor, se torna possível editar os campos do formulário, escolher a cor de tema do header do card e a imagem do usuário. Ainda nesta mesma página, é possível realizar logout para retornar à página de login;
 
 - Informações de acesso: 
   - email: michaelb@jordan.com 
