@@ -15,6 +15,19 @@ export const Card = styled.div`
   background-color: white;
   position: absolute;
   box-shadow: 0 0 10px ${primaryColor};
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0 !important;
+  }
+  @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+  width: 680px;
+  height: 700px;
+  }
+  @media screen and (min-device-width : 1200px) and (max-device-width : 1500px) {
+  width: 680px;
+  height: 700px;
+  }
 `;
 
 export const ContainerPhoto = styled.div`
@@ -24,6 +37,9 @@ export const ContainerPhoto = styled.div`
   height: 110px;
   border-radius: 24px 24px 0 0;
   background-color: ${primaryColor};
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  border-radius: 0;
+  }
 `;
 
 export const UserImage = styled.img`
@@ -45,6 +61,9 @@ export const ContainerForm = styled.form`
   align-items: center;
   height: 200px;
   margin-top: 120px;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  margin-top: 80px;
+  }
 `;
 
 export const ContainerInputs = styled.div`
@@ -80,6 +99,9 @@ export const ContainerButton = styled.div`
   align-items: center;
   position: relative;
   bottom: -90%;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  bottom: -50%;
+  }
 `;
 
 
